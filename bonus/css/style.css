@@ -79,6 +79,7 @@ nav a {
 }
 
 
+
 /* CARDS */
 
 
@@ -103,4 +104,16 @@ nav a {
 
 #chuck-taylor .title {
  color: green;
+}
+
+#boat-shoes img {
+    filter: drop-shadow(0 0 1rem yellow);
+}
+
+#old-school img {
+    filter: drop-shadow(0 0 1rem yellow);
+}
+
+#chuck-taylor img {
+    filter: drop-shadow(0 0 1rem green);
 }
