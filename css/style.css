@@ -10,6 +10,10 @@ img {
 
 /* generals */
 
+html {
+    overflow-y: hidden;
+}
+
 body {
     font-family: 'Rubik Mono One', sans-serif;
 }
