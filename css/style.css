@@ -1,0 +1,22 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* generals */
+
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+/* utilities */
+
+clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
