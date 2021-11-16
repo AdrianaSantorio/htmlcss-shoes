@@ -14,6 +14,11 @@ body {
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+section {
+    height: 100vh;
+}
+
+
 /* utilities */
 
 clearfix::after {
@@ -22,11 +27,7 @@ clearfix::after {
     clear: both;
 }
 
-
-section {
-    height: 100vh;
-}
-
+/* MAIN */
 
 #boat-shoes {
     background-color: #FF0000;
@@ -39,4 +40,6 @@ section {
 #chuck-taylor {
     background-color: #FFFF00;
 }
+
+/* CARDS */
 
