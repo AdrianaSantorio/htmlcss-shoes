@@ -1,5 +1,5 @@
 * {
-    border: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -13,6 +13,7 @@ img {
 body {
     font-family: 'Rubik Mono One', sans-serif;
 }
+
 /* utilities */
 
 clearfix::after {
@@ -20,3 +21,22 @@ clearfix::after {
     content: '';
     clear: both;
 }
+
+
+section {
+    height: 100vh;
+}
+
+
+#boat-shoes {
+    background-color: #FF0000;
+}
+
+#old-school {
+    background-color: #008000;
+}
+
+#chuck-taylor {
+    background-color: #FFFF00;
+}
+
