@@ -16,16 +16,19 @@ body {
 
 section {
     height: 100vh;
+    position: relative
 }
 
 
 /* utilities */
 
-clearfix::after {
+.clearfix::after {
     display: table;
     content: '';
     clear: both;
 }
+
+
 
 /* MAIN */
 
@@ -43,3 +46,25 @@ clearfix::after {
 
 /* CARDS */
 
+
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.card .title {
+    color: yellow;
+    font-size: 48px;
+    text-align: center;
+}
+
+.text-green {
+    color: green;
+}
+
+#chuck-taylor .title {
+ color: green;
+}
